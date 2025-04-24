@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crash Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Crash Game</h1>
+  <div id="gameSection">
+    <div id="points">Your Points: 100</div>
+    <div id="multiplier">1.00x</div>
+    <input type="number" id="betAmount" value="10" min="1" max="100" />
+    <button id="startBtn">Start</button>
+    <button id="cashOutBtn" disabled>Cash Out</button>
+    <div id="result"></div>
+    <button id="resetBtn" onclick="resetPoints()">Reset Points</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
